@@ -1,17 +1,16 @@
 # FinCrime-Fraud-Detection
 
 ## Overview
-This project focuses on analyzing a synthetic dataset of customer card transactions to generate meaningful business insights and develop a fraud detection model. The dataset is divided into training and test sets (`tr_fincrime_train.csv` and `tr_fincrime_test.csv`), with the training set used for analysis and model training and the test set for evaluating the model's performance.
+This project focuses on analyzing a synthetic dataset of customer card transactions to generate meaningful business insights and develop a fraud detection model. The dataset is divided into training and test sets (too large for github), with the training set used for analysis and model training and the test set for evaluating the model's performance.
 
 ## Dataset
 The dataset comprises approximately 1.3 million records, featuring various details about customer transactions, including transaction date and time, merchant information, amount, and the fraud flag, which serves as the target class for the fraud detection model.
 
-### Description of Columns
+### Description of Top Columns
 - `index`: Unique Identifier for each row
 - `trans_date_trans_time`: Transaction DateTime
 - `cc_num`: Credit Card Number of Customer
 - `merchant`: Merchant Name
-- ... (remaining columns as described)
 - `is_fraud`: Fraud Flag (Target Class)
 
 ## Objectives
@@ -27,6 +26,8 @@ The dataset comprises approximately 1.3 million records, featuring various detai
 ## Methodology
 - **Data Preparation**: Analyze and preprocess data for optimal model performance.
 - **Exploratory Data Analysis**: Visualize and explore data to find patterns related to fraud.
+  Insights were gained during this step, such as the different distributions of transaction amounts between frauds and non frauds.
+  ![Dist of Trans Amounts](/repository/FinCrime---Fraud-Detection/trans_dist.png?raw=true "Dist of Trans Amounts")
 - **Model Development**: Use machine learning algorithms to predict fraud.
 - **Evaluation**: Assess model performance with appropriate metrics.
 
