@@ -4,9 +4,16 @@
 This project focuses on analyzing a synthetic dataset of customer card transactions to generate meaningful business insights and develop a fraud detection model. The dataset is divided into training and test sets (too large for github), with the training set used for analysis and model training and the test set for evaluating the model's performance.
 
 ## Tools and Libraries
-- Pandas, NumPy, Matplotlib, Seaborn for data manipulation and visualization.
-- LightGBM, Scikit-learn for model building and evaluation.
-- Other custom utilities as needed for specific analyses.
+- Data Manipulation and Visualization
+  - Pandas
+  - Numpy
+  - Matplotlib
+  - Seaborn
+  - Scoretools (custom package for bivariate tables, etc.)
+- Model Building and Evaluation
+  - LightGBM
+  - Scikit-learn
+
 
 ## Dataset
 The dataset comprises approximately 1.3 million records, featuring various details about customer transactions, including transaction date and time, merchant information, amount, and the fraud flag, which serves as the target class for the fraud detection model.
