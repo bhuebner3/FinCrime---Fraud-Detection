@@ -44,8 +44,8 @@ EDA was conducted to understand the dataset's characteristics, with a focus on i
 
   ![trans_dist](https://github.com/bhuebner3/FinCrime---Fraud-Detection/assets/73898316/10cd787a-280b-4fb7-be7b-6bc5ec711256)
 
-I also found interesting interactions of variables to report as actionable insights in Part 1. An example of this is transaction amount by time of day.
 ![heatmap](https://github.com/bhuebner3/FinCrime---Fraud-Detection/assets/73898316/f875c4b5-1bf6-49bb-a176-f42a2872ca87)
+I also found interesting interactions of variables to report as actionable insights in Part 1. An example of this is transaction amount by time of day.
 
 ### Feature Engineering
 Significant effort was put into engineering features that capture the nuances of fraudulent transactions. This includes creating features based on transaction velocity, geographic distance between the customer and merchant, and customer behavior profiling. The use of rolling windows and the creation of velocity features highlight the dynamic nature of transaction patterns. Additionally, location-based features and customer-specific attributes like age and transaction habits were included to enrich the model's input data.
