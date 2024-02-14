@@ -27,6 +27,9 @@ The dataset comprises approximately 1.3 million records, featuring various detai
 - **Data Preparation**: Analyze and preprocess data for optimal model performance.
 - **Exploratory Data Analysis**: Visualize and explore data to find patterns related to fraud.
   Insights were gained during this step, such as the different distributions of transaction amounts between frauds and non frauds.
+
+  ![trans_dist](https://github.com/bhuebner3/FinCrime---Fraud-Detection/assets/73898316/10cd787a-280b-4fb7-be7b-6bc5ec711256)
+
   ![Dist of Trans Amounts](/repository/FinCrime---Fraud-Detection/trans_dist.png?raw=true "Dist of Trans Amounts")
 - **Model Development**: Use machine learning algorithms to predict fraud.
 - **Evaluation**: Assess model performance with appropriate metrics.
